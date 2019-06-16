@@ -1,6 +1,43 @@
-.tablas{
-    background-color: #3c763d;
-    color: white;
-    text-align: center;
-    font-size: xx-large;
+.card{
+  border-radius:5px;
+  margin-top: 0;
+  border: 1px solid #bdbdbd;
+  margin-bottom: 20px;
+}
+.card-head{
+  padding: 0 15px;
+  background-color:#eeeeee;
+  border-bottom: 2px solid #757575;
+}
+.card-head h5{
+  color: #212121;
+}
+.card-body{
+  background-color: #212121;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  padding: 10px;
+}
+.card-body h5{
+  color: #2196f3;
+  letter-spacing:0.1rem;
+}
+.console{
+  background-color: #212121;
+}
+.table-title{
+  background-color: #fafafa;
+}
+.console td,tr{
+  letter-spacing:0.1rem;
+  color: #fafafa;
+}
+.console td{
+  border-bottom: 2px solid #212121;
+}
+.op-color{
+  color: #bbdefb;
+}
+.console tr{
+  border-top: 2px solid #212121;
 }

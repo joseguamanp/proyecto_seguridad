@@ -1,14 +1,17 @@
-<nav class="navbar navbar-expand-sm bg-light">
-	  <div class="container-fluid">
-	    <ul class="nav navbar-nav">
-	      <li><a href="conexiones.php">Principal</a></li>
-	      <li><a href="conexiones.php">Mostrar las conexiones</a></li>
-	      <li><a href="aplicaciones.php">Mostrar las aplicaciones</a></li>
-	      <li><a href="estadistica.php">Estadistica</a></li>
-	      <li><a href="puerto.php">Mostrar los puertos</a></li>
-	      <li><a href="procesos.php">Mostrar la identidad</a></li>
-	      <li><a href="rutas.php">Mostrar las Rutas</a></li>
-	      <li><a href="protocolo.php">Mostrar los protocolos</a></li>
-	    </ul>
-	  </div>
+<nav class="navbar nav-main">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Netstat</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+			<li><a href="index.php">Principal</a></li>
+			<li><a href="conexiones.php">Conexiones</a></li>
+			<li><a href="aplicaciones.php">Aplicaciones</a></li>
+			<li><a href="estadistica.php">Estadistica</a></li>
+			<li><a href="puerto.php">Puertos</a></li>
+			<li><a href="procesos.php">Identidad</a></li>
+			<li><a href="rutas.php">Rutas</a></li>
+			<li><a href="protocolo.php">Protocolos</a></li>
+    </ul>
+  </div>
 </nav>

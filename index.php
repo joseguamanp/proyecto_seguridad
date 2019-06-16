@@ -17,6 +17,14 @@
 					<h4>Proyecto Netstat</h4>
 					<h3>Seguridad Informática</h3>
 					<p>Ingeniería en Sistemas Computacionales</p>
+					<h3>Grupo #3</h3>
+					<ul>
+						<li>Carlos Floreano</li>
+						<li>Steven Aristega</li>
+						<li>Alfonso Vaca</li>
+						<li>Kathy Cedeño</li>
+						<li>Erwin Rivas</li>
+					</ul>
 			</div>
 			<div class="col-md-7">
 					<img src="public/img/pc.png" alt="">

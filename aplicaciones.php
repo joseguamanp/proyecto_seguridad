@@ -1,7 +1,6 @@
 <?php
 $result=array();
 exec('netstat -b',$result);
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -26,12 +25,35 @@ exec('netstat -b',$result);
 					</div>
 				</div>
 				<div class="card-body">
-
 					<table class='table table-responsive console'>
 						<tbody>
 						<?php
 						foreach($result as $value => $line) {
-
+							if($value == 3){
+								$datos = explode(" ",$line);
+								$max = sizeof($datos);
+								echo	"<thead>";
+								echo "<tr>";
+								echo "<th scope='col'>Proto</th>";
+								echo "<th scope='col'>Dirección local</th>";
+								echo "<th scope='col'>Dirección remota</th>";
+								echo "<th scope='col'>Estado</th>";
+								echo	"</tr>";
+								echo "</thead>";
+							}
+							if($value > 3){
+								$datos = explode(" ",$line);
+								$max = sizeof($datos);
+								echo	"<tbody>";
+								echo "<tr>";
+								for($i = 0; $i < $max; $i++){
+									if($datos[$i] != ""){
+										echo "<td>".utf8_decode($datos[$i])."</td>";
+									}
+								}
+								echo	"</tr>";
+								echo "</tbody>";
+							}
 						}
 						?>
 						</tbody>
